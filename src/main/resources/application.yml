@@ -7,7 +7,7 @@ spring:
 
   datasource:
     platform: mysql
-    url:  jdbc:mysql://developerhyun.cyid0j45jyim.ap-northeast-2.rds.amazonaws.com/cupang_eats?autoReconnect=true # 변경해주세요
+    url:  jdbc:mysql://database-1.cjj2kmz38fzs.ap-northeast-2.rds.amazonaws.com/Young_Thinking?autoReconnect=true # 변경해주세요
     username:  rlckdrkdud
     password:  rlckd159
     driver-class-name: com.mysql.cj.jdbc.Driver # mysql 8버전

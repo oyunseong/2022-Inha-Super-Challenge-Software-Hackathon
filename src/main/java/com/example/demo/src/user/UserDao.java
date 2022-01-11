@@ -102,7 +102,7 @@ public class UserDao {
 
     //테스트
     public List<GetUserRes> logintest() {
-          List<GetUserRes> getUserRes = this.jdbcTemplate.query("select id,password from miggle",
+          List<GetUserRes> getUserRes = this.jdbcTemplate.query("select id,password from User",
                 (rs,rownum) -> new GetUserRes(
                         rs.getString("id"),
                         rs.getString("password")

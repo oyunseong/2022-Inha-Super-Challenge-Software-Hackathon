@@ -47,4 +47,9 @@ public class UserController {
 
     }
 
+    //학교이메일 인증
+    @ResponseBody
+    
+
+
 }

@@ -45,6 +45,11 @@
         <appender-ref ref="STDOUT"/>
     </root>
 
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-mail</artifactId>
+    </dependency>
+
     <logger name="com.example.demo" level="WARN">
         <appender-ref ref="APP_FILE"/>
         <appender-ref ref="ERROR_FILE"/>

@@ -111,4 +111,15 @@ public class UserDao {
     }
 
 
+    public List<GetMainPage> mainPageRes() {
+        List<GetMainPage> getMainPages = this.jdbcTemplate.query("select koreaTitle,imageUrl from KCulture",
+                (rs,rownum)-> new GetMainPage(
+                        rs.getString("koreaTitle"),
+                        rs.getString("imageUrl")
+                ));
+        return getMainPages;
+
+    }
+
+
 }

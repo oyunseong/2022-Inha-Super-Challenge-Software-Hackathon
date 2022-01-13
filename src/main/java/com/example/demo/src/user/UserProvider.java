@@ -31,6 +31,11 @@ public class UserProvider {
         this.jwtService = jwtService;
     }
 
+    public List<GetMainPage> getMainPages() {
+        List<GetMainPage> getMainPages = userDao.mainPageRes();
+        return getMainPages;
+    }
+
 //    public List<GetUserRes> getUsers() throws BaseException{
 //        try{
 //            List<GetUserRes> getUserRes = userDao.getUsers();

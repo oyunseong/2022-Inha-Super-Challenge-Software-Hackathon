@@ -47,8 +47,16 @@ public class UserController {
 
     }
 
-    //학교이메일 인증
+
+
     @ResponseBody
+    @GetMapping("/mainPage")
+    public BaseResponse<List<GetMainPage>> getmain(){
+        List<GetMainPage> getMainPages = userProvider.getMainPages();
+        return new BaseResponse<>(getMainPages);
+    }
+
+    //
     
 
 

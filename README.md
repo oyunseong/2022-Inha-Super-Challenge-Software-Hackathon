@@ -1,3 +1,2 @@
-Young_Thinking
+2022 인하대 소프트웨어 해커톤 출품작
 
-Spring Boot

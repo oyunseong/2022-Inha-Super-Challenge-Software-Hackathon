@@ -57,7 +57,31 @@ public class UserController {
     }
 
     //
-    
+
+
+    /**
+     * 카테고리
+     */
+    @ResponseBody
+    @GetMapping("/category")
+    public BaseResponse<List<GetCategory>> getcategory(@RequestParam(value = "pageCategory", required = true) String category){
+            List<GetCategory> getCategories = userProvider.getCategories(category);
+            return new BaseResponse<>(getCategories);
+
+    }
+
+    /** 세부화면
+     *
+     */
+    @ResponseBody
+    @GetMapping("/detailPage")
+    public BaseResponse<GetDetailPage> getDetailPageBaseResponse(@RequestParam(value = "name", required = true) String name){
+            GetDetailPage getDetailPage = userProvider.getDetailPage(name);
+            return new BaseResponse<>(getDetailPage);
+
+    }
+
+
 
 
 }

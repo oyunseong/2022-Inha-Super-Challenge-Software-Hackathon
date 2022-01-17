@@ -112,13 +112,41 @@ public class UserDao {
 
 
     public List<GetMainPage> mainPageRes() {
-        List<GetMainPage> getMainPages = this.jdbcTemplate.query("select koreaTitle,imageUrl from KCulture",
+        List<GetMainPage> getMainPages = this.jdbcTemplate.query("select englishTitle,imageUrl from KCulture limit 4",
                 (rs,rownum)-> new GetMainPage(
-                        rs.getString("koreaTitle"),
+                        rs.getString("englishTitle"),
                         rs.getString("imageUrl")
                 ));
         return getMainPages;
 
+    }
+
+    /**
+     * 카테고리
+     */
+    public List<GetCategory> getCategories(String category) {
+        List<GetCategory> getCategories = this.jdbcTemplate.query("select englishTitle,imageUrl from KCulture where category=?",
+                (rs,rownum)-> new GetCategory(
+                        rs.getString("englishTitle"),
+                        rs.getString("imageUrl")
+                ),category);
+        return getCategories;
+    }
+
+    /**
+     * 세부화면
+     */
+    public GetDetailPage getDetailPage(String name) {
+        GetDetailPage getDetailPage = this.jdbcTemplate.queryForObject("select koreaTitle,englishTitle,imageUrl,koreaExplain,englishExplain,movieUrl from KCulture where englishTitle=?",
+                (rs,rownum) -> new GetDetailPage(
+                        rs.getString("koreaTitle"),
+                        rs.getString("englishTitle"),
+                        rs.getString("imageUrl"),
+                        rs.getString("koreaExplain"),
+                        rs.getString("englishExplain"),
+                        rs.getString("movieUrl")
+                ),name);
+        return getDetailPage;
     }
 
 

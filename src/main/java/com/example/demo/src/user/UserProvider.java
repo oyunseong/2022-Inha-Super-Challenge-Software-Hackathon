@@ -36,6 +36,25 @@ public class UserProvider {
         return getMainPages;
     }
 
+
+    /**
+     * 카테고리
+     * @return
+     */
+    public List<GetCategory> getCategories(String category) {
+        List<GetCategory> getCategories = userDao.getCategories(category);
+        return getCategories;
+    }
+
+    /**
+     * 세부화면
+     * @return
+     */
+    public GetDetailPage getDetailPage(String name) {
+        GetDetailPage getDetailPage = userDao.getDetailPage(name);
+        return getDetailPage;
+    }
+
 //    public List<GetUserRes> getUsers() throws BaseException{
 //        try{
 //            List<GetUserRes> getUserRes = userDao.getUsers();

@@ -8,6 +8,6 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 public class GetMainPage {
-    private String koreaTitle;
+    private String englishTitle;
     private String imageUrl;
 }

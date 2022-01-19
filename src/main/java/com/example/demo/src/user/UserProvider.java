@@ -55,6 +55,22 @@ public class UserProvider {
         return getDetailPage;
     }
 
+
+    /**
+     * 메인화면 가로뷰
+     * @return
+     */
+    public GetCategoryListView getCategoryListView() {
+        List<GetCategory> dramaview = userDao.getCategoriesview("drama");
+        List<GetCategory> movieview = userDao.getCategoriesview("movie");
+        List<GetCategory> musicview = userDao.getCategoriesview("music");
+        List<GetCategory> foodview = userDao.getCategoriesview("food");
+
+        GetCategoryListView getCategoryListView = new GetCategoryListView(dramaview,movieview,musicview,foodview);
+        return getCategoryListView;
+    }
+
+
 //    public List<GetUserRes> getUsers() throws BaseException{
 //        try{
 //            List<GetUserRes> getUserRes = userDao.getUsers();

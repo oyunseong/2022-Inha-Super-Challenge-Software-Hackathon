@@ -81,6 +81,18 @@ public class UserController {
 
     }
 
+    /**
+     * 메인뷰 가로화면
+     *
+     */
+    @ResponseBody
+    @GetMapping("/mainPageListView")
+    public BaseResponse<GetCategoryListView> getCategoryListViewBaseResponse() {
+        GetCategoryListView getCategoryListView = userProvider.getCategoryListView();
+        return new BaseResponse<>(getCategoryListView);
+    }
+
+
 
 
 

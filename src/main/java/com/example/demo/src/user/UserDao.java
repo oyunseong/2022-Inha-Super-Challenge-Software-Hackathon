@@ -150,4 +150,16 @@ public class UserDao {
     }
 
 
+    /**
+     * 메인화면 가로뷰
+     */
+    public List<GetCategory> getCategoriesview(String name) {
+        List<GetCategory> getCategories = this.jdbcTemplate.query("select imageUrl,englishTitle from KCulture where category=?",
+                (rs,rownum)-> new GetCategory(
+                        rs.getString("englishTitle"),
+                        rs.getString("imageUrl")
+                ),name);
+        return getCategories;
+    }
+
 }

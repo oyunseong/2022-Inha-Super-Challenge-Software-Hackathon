@@ -1,5 +1,6 @@
 package com.example.demo.src.user;
 
+import com.example.demo.src.main.model.GetDemoDayAlarmReq;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import com.example.demo.config.BaseException;
@@ -91,6 +92,21 @@ public class UserController {
         GetCategoryListView getCategoryListView = userProvider.getCategoryListView();
         return new BaseResponse<>(getCategoryListView);
     }
+
+    //
+//    /**
+//     * 데모데이 알림 버전
+//     */
+//    @ResponseBody
+//    @GetMapping("/demoday")
+//    public BaseResponse<String> demodayalarm(@RequestBody GetDemoDayAlarmReq getDemoDayAlarmReq,
+//                                             @RequestHeader (value = "userUid") String userUid,
+//                                             @RequestHeader (value = "welfareUid") String welfareUid) throws BaseException{
+//        String  test = "success";
+//        mainService.demodayalarm(getDemoDayAlarmReq,userUid,welfareUid);
+//        return new BaseResponse<>(test);
+//
+//    }
 
 
 

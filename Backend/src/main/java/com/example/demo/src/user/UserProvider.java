@@ -58,8 +58,13 @@ public class UserProvider {
      * @return
      */
     public GetDetailPage getDetailPage(String name) {
-        GetDetailPage getDetailPage = userDao.getDetailPage(name);
+        List<GetReview> getReviews = userDao.getReview();
+        List<GetMainPage> getMainPages = userDao.getMainPagesExcept(name);
+        GetOneData getOneData = userDao.getDetailPage(name);
+
+        GetDetailPage getDetailPage = new GetDetailPage(getOneData.getKoreaTitle(),getOneData.getEnglishTitle(),getOneData.getImageUrl(),getOneData.getEnglishExplain(),getOneData.getMovieUrl(),getReviews,getMainPages);
         return getDetailPage;
+
     }
 
 

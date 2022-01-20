@@ -141,6 +141,30 @@ public class UserDao {
     }
 
     /**
+     * 리뷰데이터
+     */
+    public List<GetReview> getReview(){
+        List<GetReview> getReviews = this.jdbcTemplate.query("select name,review from Review",
+                (rs,rownum)-> new GetReview(
+                        rs.getString("name"),
+                        rs.getString("review")
+                ));
+        return getReviews;
+    }
+
+    /**
+     * 정보 받은 하나 제외하고 나머지 보여주기
+     */
+    public List<GetMainPage> getMainPagesExcept(String name){
+        List<GetMainPage> getMainPages = this.jdbcTemplate.query("select englishTitle,imageUrl from KCulture where englishTitle not in (?) ",
+                (rs,rownum)-> new GetMainPage(
+                        rs.getString("englishTitle"),
+                        rs.getString("imageUrl")
+                ),name);
+        return getMainPages;
+    }
+
+    /**
      * 카테고리
      */
     public List<GetCategory> getCategories(String category) {
@@ -153,15 +177,14 @@ public class UserDao {
     }
 
     /**
-     * 세부화면
+     * 세부화면(하나 데이터)
      */
-    public GetDetailPage getDetailPage(String name) {
-        GetDetailPage getDetailPage = this.jdbcTemplate.queryForObject("select koreaTitle,englishTitle,imageUrl,koreaExplain,englishExplain,movieUrl from KCulture where englishTitle=?",
-                (rs,rownum) -> new GetDetailPage(
+    public GetOneData getDetailPage(String name) {
+        GetOneData getDetailPage = this.jdbcTemplate.queryForObject("select koreaTitle,englishTitle,imageUrl,englishExplain,movieUrl from KCulture where englishTitle=?",
+                (rs,rownum) -> new GetOneData(
                         rs.getString("koreaTitle"),
                         rs.getString("englishTitle"),
                         rs.getString("imageUrl"),
-                        rs.getString("koreaExplain"),
                         rs.getString("englishExplain"),
                         rs.getString("movieUrl")
                 ),name);

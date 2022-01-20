@@ -70,6 +70,23 @@ public class UserController {
         return new BaseResponse<>(getMainNation);
     }
 
+//    /**
+//     * 1월 20일 두번째 화면 페이지
+//     */
+//    @ResponseBody
+//    @GetMapping("moviedrama")
+//    public BaseResponse<>
+
+    /**
+     * 세부화면 1/20
+     */
+    @ResponseBody
+    @GetMapping("/detailPage")
+    public BaseResponse<GetDetailPage> getDetailPageBaseResponse(@RequestParam(value = "name", required = true) String name){
+        GetDetailPage getDetailPage = userProvider.getDetailPage(name);
+        return new BaseResponse<>(getDetailPage);
+    }
+
 
 
 //

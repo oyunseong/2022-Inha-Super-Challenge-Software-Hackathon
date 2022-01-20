@@ -15,6 +15,10 @@ import org.springframework.jdbc.core.JdbcTemplate;
 
 import javax.sql.DataSource;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Locale;
+
 import static com.example.demo.config.BaseResponseStatus.*;
 
 // Service Create, Update, Delete 의 로직 처리
@@ -33,6 +37,24 @@ public class UserService {
         this.userProvider = userProvider;
         this.jwtService = jwtService;
 
+    }
+
+    public void alarmpush(String fcmtoken,String title, String userUid, String welfareUid) {
+
+        String body = "마감까지 얼마 남지 않았어요. 신청하셨나요?";
+        //String fcmtoken = mainDao.demodayfcmtoken(userUid);
+//        System.out.println(fcmtoken);
+//        System.out.println(getDemoDayAlarmReq.getTitle());
+//        System.out.println(getDemoDayAlarmReq.getBody());
+//        System.out.println(welfareUid);
+        // 현재 시간 추출
+        Date today = new Date();
+        Locale currentLocale = new Locale("KOREAN", "KOREA");
+        String pattern = "yyyyMMddHHmmss"; //hhmmss로 시간,분,초만 뽑기도 가능
+        SimpleDateFormat formatter = new SimpleDateFormat(pattern,
+                currentLocale);
+        //     System.out.println(formatter.format(today));
+        String date = formatter.format(today);
     }
 
 //    //POST

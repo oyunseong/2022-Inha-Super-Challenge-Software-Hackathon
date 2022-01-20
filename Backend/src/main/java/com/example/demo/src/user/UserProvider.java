@@ -31,9 +31,16 @@ public class UserProvider {
         this.jwtService = jwtService;
     }
 
-    public List<GetMainPage> getMainPages() {
-        List<GetMainPage> getMainPages = userDao.mainPageRes();
-        return getMainPages;
+    /**
+     * 메인페이지
+     * @return
+     */
+
+    public GetMainNation getMainPages() {
+            List<GetMainPage> movie = userDao.mainPageRes();
+            List<GetMainPage> nation = userDao.mainPageResnation();
+            GetMainNation getMainNation = new GetMainNation(movie,nation);
+            return getMainNation;
     }
 
 

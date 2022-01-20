@@ -1,6 +1,6 @@
 package com.example.demo.src.user;
 
-import com.example.demo.src.main.model.GetDemoDayAlarmReq;
+//import com.example.demo.src.main.model.GetDemoDayAlarmReq;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import com.example.demo.config.BaseException;
@@ -49,53 +49,66 @@ public class UserController {
     }
 
 
-
-    @ResponseBody
-    @GetMapping("/mainPage")
-    public BaseResponse<List<GetMainPage>> getmain(){
-        List<GetMainPage> getMainPages = userProvider.getMainPages();
-        return new BaseResponse<>(getMainPages);
-    }
+//
+//    @ResponseBody
+//    @GetMapping("/mainPage")
+//    public BaseResponse<List<GetMainPage>> getmain(){
+//        List<GetMainPage> getMainPages = userProvider.getMainPages();
+//        return new BaseResponse<>(getMainPages);
+//    }
 
     //
 
-
     /**
-     * 카테고리
+     * 1d월20일 메인페이지
+     * @return
      */
     @ResponseBody
-    @GetMapping("/category")
-    public BaseResponse<List<GetCategory>> getcategory(@RequestParam(value = "pageCategory", required = true) String category){
-            List<GetCategory> getCategories = userProvider.getCategories(category);
-            return new BaseResponse<>(getCategories);
-
+    @GetMapping("/mainPage")
+    public BaseResponse<GetMainNation> getMainNationBaseResponse(){
+        GetMainNation getMainNation = userProvider.getMainPages();
+        return new BaseResponse<>(getMainNation);
     }
 
-    /** 세부화면
-     *
-     */
-    @ResponseBody
-    @GetMapping("/detailPage")
-    public BaseResponse<GetDetailPage> getDetailPageBaseResponse(@RequestParam(value = "name", required = true) String name){
-            GetDetailPage getDetailPage = userProvider.getDetailPage(name);
-            return new BaseResponse<>(getDetailPage);
 
-    }
 
-    /**
-     * 메인뷰 가로화면
-     *
-     */
-    @ResponseBody
-    @GetMapping("/mainPageListView")
-    public BaseResponse<GetCategoryListView> getCategoryListViewBaseResponse() {
-        GetCategoryListView getCategoryListView = userProvider.getCategoryListView();
-        return new BaseResponse<>(getCategoryListView);
-    }
+//
+//    /**
+//     * 카테고리
+//     */
+//    @ResponseBody
+//    @GetMapping("/category")
+//    public BaseResponse<List<GetCategory>> getcategory(@RequestParam(value = "pageCategory", required = true) String category){
+//            List<GetCategory> getCategories = userProvider.getCategories(category);
+//            return new BaseResponse<>(getCategories);
+//
+//    }
+//
+//    /** 세부화면
+//     *
+//     */
+//    @ResponseBody
+//    @GetMapping("/detailPage")
+//    public BaseResponse<GetDetailPage> getDetailPageBaseResponse(@RequestParam(value = "name", required = true) String name){
+//            GetDetailPage getDetailPage = userProvider.getDetailPage(name);
+//            return new BaseResponse<>(getDetailPage);
+//
+//    }
+//
+//    /**
+//     * 메인뷰 가로화면
+//     *
+//     */
+//    @ResponseBody
+//    @GetMapping("/mainPageListView")
+//    public BaseResponse<GetCategoryListView> getCategoryListViewBaseResponse() {
+//        GetCategoryListView getCategoryListView = userProvider.getCategoryListView();
+//        return new BaseResponse<>(getCategoryListView);
+//    }
 
     //
 //    /**
-//     * 데모데이 알림 버전
+//     *
 //     */
 //    @ResponseBody
 //    @GetMapping("/demoday")

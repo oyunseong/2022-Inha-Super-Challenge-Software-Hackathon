@@ -110,9 +110,28 @@ public class UserDao {
           return getUserRes;
     }
 
+    /**
+     * 1/20d일자 메인페이지
+     * @return
+     */
 
     public List<GetMainPage> mainPageRes() {
-        List<GetMainPage> getMainPages = this.jdbcTemplate.query("select englishTitle,imageUrl from KCulture limit 4",
+        List<GetMainPage> getMainPages = this.jdbcTemplate.query("select englishTitle,imageUrl from KCulture",
+                (rs,rownum)-> new GetMainPage(
+                        rs.getString("englishTitle"),
+                        rs.getString("imageUrl")
+                ));
+        return getMainPages;
+
+    }
+
+    /**
+     * 1/20일자 메인페이지 날짜추천
+     * @return
+     */
+
+    public List<GetMainPage> mainPageResnation() {
+        List<GetMainPage> getMainPages = this.jdbcTemplate.query("select englishTitle,imageUrl from KCulture order by rand()",
                 (rs,rownum)-> new GetMainPage(
                         rs.getString("englishTitle"),
                         rs.getString("imageUrl")

@@ -179,9 +179,9 @@ public class UserDao {
     /**
      * 세부화면(하나 데이터)
      */
-    public GetOneData getDetailPage(String name) {
-        GetOneData getDetailPage = this.jdbcTemplate.queryForObject("select koreaTitle,englishTitle,imageUrl,englishExplain,movieUrl from KCulture where englishTitle=?",
-                (rs,rownum) -> new GetOneData(
+    public GetDetailPageOne getDetailPage(String name) {
+        GetDetailPageOne getDetailPage = this.jdbcTemplate.queryForObject("select koreaTitle,englishTitle,imageUrl,englishExplain,movieUrl from KCulture where englishTitle=?",
+                (rs,rownum) -> new GetDetailPageOne(
                         rs.getString("koreaTitle"),
                         rs.getString("englishTitle"),
                         rs.getString("imageUrl"),
@@ -203,5 +203,10 @@ public class UserDao {
                 ),name);
         return getCategories;
     }
+
+//    /**
+//     * 테스트 스트링 하나
+//     */
+//    public
 
 }

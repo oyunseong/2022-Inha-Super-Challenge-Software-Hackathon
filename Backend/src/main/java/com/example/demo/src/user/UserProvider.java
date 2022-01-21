@@ -53,19 +53,19 @@ public class UserProvider {
         return getCategories;
     }
 
-    /**
-     * 세부화면
-     * @return
-     */
-    public GetDetailPage getDetailPage(String name) {
-        List<GetReview> getReviews = userDao.getReview();
-        List<GetMainPage> getMainPages = userDao.getMainPagesExcept(name);
-        GetOneData getOneData = userDao.getDetailPage(name);
-
-        GetDetailPage getDetailPage = new GetDetailPage(getOneData.getKoreaTitle(),getOneData.getEnglishTitle(),getOneData.getImageUrl(),getOneData.getEnglishExplain(),getOneData.getMovieUrl(),getReviews,getMainPages);
-        return getDetailPage;
-
-    }
+//    /**
+//     * 세부화면
+//     * @return
+//     */
+//    public GetDetailPage getDetailPage(String name) {
+//        List<GetReview> getReviews = userDao.getReview();
+//        List<GetMainPage> getMainPages = userDao.getMainPagesExcept(name);
+//        GetOneData getOneData = userDao.getDetailPage(name);
+//
+//        GetDetailPage getDetailPage = new GetDetailPage(getOneData.getKoreaTitle(),getOneData.getEnglishTitle(),getOneData.getImageUrl(),getOneData.getEnglishExplain(),getOneData.getMovieUrl(),getReviews,getMainPages);
+//        return getDetailPage;
+//
+//    }
 
 
     /**
@@ -80,6 +80,42 @@ public class UserProvider {
 
         GetCategoryListView getCategoryListView = new GetCategoryListView(dramaview,movieview,musicview,foodview);
         return getCategoryListView;
+    }
+
+    /**
+     * 메인페이지 하나 1.21
+     * @return
+     */
+    public List<GetMainPage> getMainPage(){
+        List<GetMainPage> getMainPage = userDao.mainPageRes();
+        return getMainPage;
+    }
+
+    /**
+     * 메인페이지121 국가별추천
+     * @return
+     */
+    public List<GetMainPage> getmainpagenation(){
+        List<GetMainPage> getMainPages = userDao.mainPageResnation();
+        return getMainPages;
+    }
+
+    /**
+     * 상세화면 하나
+     * @return
+     */
+    public GetDetailPageOne getDetailPageOne(String name){
+        GetDetailPageOne getDetailPageOne = userDao.getDetailPage(name);
+        return getDetailPageOne;
+    }
+
+    /**
+     * 리뷰데이터
+     * @return
+     */
+    public List<GetReview> getReview(){
+        List<GetReview> getReview = userDao.getReview();
+        return getReview;
     }
 
 

@@ -1,6 +1,7 @@
 package com.example.demo.src.user;
 
 //import com.example.demo.src.main.model.GetDemoDayAlarmReq;
+import com.fasterxml.jackson.databind.ser.Serializers;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import com.example.demo.config.BaseException;
@@ -77,15 +78,66 @@ public class UserController {
 //    @GetMapping("moviedrama")
 //    public BaseResponse<>
 
+//    /**
+//     * 세부화면 1/20
+//     */
+//    @ResponseBody
+//    @GetMapping("/detailPage")
+//    public BaseResponse<GetDetailPage> getDetailPageBaseResponse(@RequestParam(value = "name", required = true) String name){
+//        GetDetailPage getDetailPage = userProvider.getDetailPage(name);
+//        return new BaseResponse<>(getDetailPage);
+//    }
+
+
     /**
-     * 세부화면 1/20
+     * 메인페이지 윗부분 1/21
+     */
+//    @ResponseBody
+//    @GetMapping("/mainPageOne")
+//    public BaseResponse<List<GetMainPage>> getMainPageBaseResponse(){
+//        List<GetMainPage> getMainPage = userProvider.getMainPage();
+//        return new BaseResponse<>(getMainPage);
+//    }
+
+    @ResponseBody
+    @GetMapping("/mainPageOne")
+    public BaseResponse<List<GetMainPage>> getMainPageBaseResponse(){
+        List<GetMainPage> getMainPage = userProvider.getMainPage();
+        return new BaseResponse<>(getMainPage);
+    }
+
+    /**
+     * 국가별 추천
+     * @return
      */
     @ResponseBody
-    @GetMapping("/detailPage")
-    public BaseResponse<GetDetailPage> getDetailPageBaseResponse(@RequestParam(value = "name", required = true) String name){
-        GetDetailPage getDetailPage = userProvider.getDetailPage(name);
-        return new BaseResponse<>(getDetailPage);
+    @GetMapping("/mainPageTwo")
+    public BaseResponse<List<GetMainPage>> getmainpagenation(){
+        List<GetMainPage> getMainPages = userProvider.getmainpagenation();
+        return new BaseResponse<>(getMainPages);
     }
+
+    /**
+     * 상세페이지 하나
+     */
+    @ResponseBody
+    @GetMapping("/detailPageOne")
+    public BaseResponse<GetDetailPageOne> getDetailPageOneBaseResponse(@RequestParam(value = "name", required = true) String name){
+            GetDetailPageOne getDetailPageOne = userProvider.getDetailPageOne(name);
+            return new BaseResponse<>(getDetailPageOne);
+    }
+
+    /**
+     * 리뷰데이터
+     */
+    @ResponseBody
+    @GetMapping("/review")
+    public BaseResponse<List<GetReview>> getrivew(){
+        List<GetReview> getReview = userProvider.getReview();
+        return new BaseResponse<>(getReview);
+    }
+    
+
 
 
 

@@ -83,11 +83,11 @@
 **Team - IKC**
 
 
-**Planner - 김시원(인하대 - 전기공학과)**
++ **Planner - 김시원(인하대 - 전기공학과)**
 
-**AOS Developer - 오윤성(인하대 - 정보통신학과)**<a href="https://github.com/oyunseong" target="_blank"><img src="https://img.shields.io/badge/oyunseong-000000?style=plastic&logo=#F40D12&logoColor=000000"/></a>
++ **AOS Developer - 오윤성(인하대 - 정보통신학과)**<a href="https://github.com/oyunseong" target="_blank"><img src="https://img.shields.io/badge/oyunseong-000000?style=plastic&logo=#F40D12&logoColor=000000"/></a>
 
-**Backend Developer - 현기창(인하대 - 소비자학과)**<a href="https://github.com/developer-hyun" target="_blank"><img src="https://img.shields.io/badge/developer-hyun-000000?style=plastic&logo=#F40D12&logoColor=000000"/></a>
++ **Backend Developer - 현기창(인하대 - 소비자학과)**<a href="https://github.com/developer-hyun" target="_blank"><img src="https://img.shields.io/badge/developer-hyun-000000?style=plastic&logo=#F40D12&logoColor=000000"/></a>
 
 
 

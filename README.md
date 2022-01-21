@@ -57,6 +57,9 @@
 
 ## :flags: App View
 
+![image](https://user-images.githubusercontent.com/84491771/150542342-2edac039-2a78-49cc-82ae-c51821613190.png)  * **메인페이지**
+
+
 
 
 

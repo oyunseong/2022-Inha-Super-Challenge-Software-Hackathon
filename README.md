@@ -27,6 +27,9 @@
   **Server : AWS**
  
   **Database : mysql**
+  
+  
+  ## :page_facing_up: development background
 
 
 

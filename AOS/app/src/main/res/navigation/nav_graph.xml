@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.miggle.miggle.ui.home.HomeTabFragment"
+        android:label="@string/HomeTapFragment"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/ValuationTapFragment"
+        android:name="com.miggle.miggle.ui.valuation.ValuationTabFragment"
+        android:label="@string/ValuationTapFragment"
+        tools:layout="@layout/fragment_valuation" />
+
+    <fragment
+        android:id="@+id/CommunityTapFragment"
+        android:name="com.miggle.miggle.ui.community.CommunityTapFragment"
+        android:label="@string/CommunityTapFragment"
+        tools:layout="@layout/fragment_community">
+    </fragment>
+
+    <fragment
+        android:id="@+id/ProfileTapFragment"
+        android:name="com.miggle.miggle.ui.mypage.ProfileTapFragment"
+        android:label="@string/ProfileTapFragment"
+        tools:layout="@layout/fragment_profile_tab" />
+    <fragment
+        android:id="@+id/PreferencesFragment"
+        android:name="com.miggle.miggle.ui.mypage.PreferencesFragment"
+        android:label="@string/PreferencesFragment"
+        tools:layout="@layout/fragment_preferences"
+        />
+    <fragment
+        android:id="@+id/SearchFragment"
+        android:name="com.miggle.miggle.ui.community.SearchFragment"
+        android:label="@string/SearchFragment"
+        tools:layout="@layout/fragment_search" />
+    <fragment
+        android:id="@+id/PostFragment"
+        android:name="com.miggle.miggle.ui.community.PostFragment"
+        android:label="@string/HomeTapFragment"
+        tools:layout="@layout/fragment_post"
+        />
+    <fragment
+        android:id="@+id/NotionFragment"
+        android:name="com.miggle.miggle.NotionFragment"
+        android:label="@string/NotionFragment"
+        tools:layout="@layout/fragment_notion"
+        />
+    <fragment
+        android:id="@+id/SearchPasswordFragment"
+        android:name="com.miggle.miggle.ui.mypage.SearchPasswordFragment"
+        android:label="@string/SearchPasswordFragment"
+        tools:layout="@layout/fragment_search_password"
+        />
+
+    <fragment
+        android:id="@+id/ProfileEditFragment"
+        android:name="com.miggle.miggle.ui.mypage.ProfileEditFragment"
+        android:label="@string/ProfileEditFragment"
+        tools:layout="@layout/fragment_profile_edit"
+        />
+    <fragment
+        android:id="@+id/DailyReportFragment"
+        android:name="com.miggle.miggle.ui.home.DailyReportFragment"
+        android:label="@string/PreferencesFragment"
+        tools:layout="@layout/fragment_daily_report"
+        />
+
+    <fragment
+        android:id="@+id/GuidanceFragment"
+        android:name="com.miggle.miggle.ui.home.GuidanceFragment"
+        android:label="@string/GuidanceFragment"
+        tools:layout="@layout/fragment_guidance"
+        />
+
+    <fragment
+        android:id="@+id/LoginFragment"
+        android:name="com.miggle.miggle.LoginFragment"
+        android:label="@string/LoginFragment"
+        tools:layout="@layout/fragment_login"
+        />
+    <fragment
+        android:id="@+id/SignUpFragment"
+        android:name="com.miggle.miggle.SignUpFragment"
+        android:label="@string/SignUpFragment"
+        tools:layout="@layout/fragment_sign_up"
+        />
+    <fragment
+        android:id="@+id/LikeStockListFragment"
+        android:name="com.miggle.miggle.ui.valuation.LikeStockListFragment"
+        android:label="@string/LikeStockListFragment"
+        tools:layout="@layout/fragment_like_stock"
+        />
+
+    <fragment
+        android:id="@+id/RankingFragment"
+        android:name="com.miggle.miggle.ui.valuation.RankingFragment"
+        android:label="@string/RankingFragment"
+        tools:layout="@layout/fragment_ranking"
+        />
+
+    <fragment
+        android:id="@+id/myPageFragment"
+        android:name="com.miggle.miggle.ui.mypage.MyPageFragment"
+        android:label="@string/myPageFragment"
+        tools:layout="@layout/fragment_mypage"
+        />
+
+    <fragment
+        android:id="@+id/categoryFragment"
+        android:name="com.miggle.miggle.ui.category.CategoryFragment"
+        android:label="@string/categoryFragment"
+        tools:layout="@layout/fragment_category"
+        />
+
+    <fragment
+        android:id="@+id/detailCategoryFragment"
+        android:name="com.miggle.miggle.ui.category.DetailCategoryFragment"
+        android:label="@string/detailCategoryFragment"
+        tools:layout="@layout/fragment_detail_category"
+        />
+
+    <fragment
+        android:id="@+id/postFragment"
+        android:name="com.miggle.miggle.ui.category.PostFragment"
+        android:label="@string/postFragment"
+        tools:layout="@layout/fragment_post2"
+        />
+
+
+</navigation>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/IKC/app/src/main/res/drawable-v24/button_custom.xml" value="0.34629629629629627" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/IKC/app/src/main/res/drawable-v24/community_search_button.xml" value="0.34629629629629627" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/IKC/app/src/main/res/drawable-v24/custom_checkbox.xml" value="0.34629629629629627" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/IKC/app/src/main/res/drawable-v24/drawable_view.xml" value="0.34629629629629627" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/IKC/app/src/main/res/drawable-v24/gradient_button_color.xml" value="0.34629629629629627" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/IKC/app/src/main/res/drawable-v24/home_button_round_modal.xml" value="0.34629629629629627" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/IKC/app/src/main/res/drawable-v24/home_ranking_card_in_round.xml" value="0.34629629629629627" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/IKC/app/src/main/res/drawable-v24/ic_home.xml" value="0.34629629629629627" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/IKC/app/src/main/res/drawable-v24/ic_like_count.xml" value="0.34629629629629627" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/IKC/app/src/main/res/drawable-v24/ic_search.xml" value="0.34629629629629627" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/IKC/app/src/main/res/drawable-v24/ic_setting.xml" value="0.34629629629629627" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/IKC/app/src/main/res/drawable-v24/main_button_state.xml" value="0.21822916666666667" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/IKC/app/src/main/res/drawable-v24/main_button_state_click.xml" value="0.21822916666666667" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/IKC/app/src/main/res/drawable-v24/main_button_state_unclick.xml" value="0.34629629629629627" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/IKC/app/src/main/res/drawable-v24/menu_select_color.xml" value="0.34629629629629627" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/IKC/app/src/main/res/drawable-v24/shape_bottom_round_modal.xml" value="0.21822916666666667" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/IKC/app/src/main/res/drawable-v24/shape_button_round.xml" value="0.34629629629629627" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/IKC/app/src/main/res/drawable-v24/shape_red_round.xml" value="0.34629629629629627" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/IKC/app/src/main/res/drawable-v24/shape_round_5dp_aaa_1dp.xml" value="0.34629629629629627" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/IKC/app/src/main/res/drawable-v24/splash.xml" value="0.34629629629629627" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/IKC/app/src/main/res/drawable/bottom_navigation_custom.xml" value="0.34629629629629627" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/IKC/app/src/main/res/drawable/bottom_navigation_custom2.xml" value="0.378125" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/IKC/app/src/main/res/drawable/buttom_navigation_custom.xml" value="0.34629629629629627" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/IKC/app/src/main/res/drawable/button_cd9975_round.xml" value="0.34629629629629627" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/IKC/app/src/main/res/drawable/button_f2f2f2_round.xml" value="0.21822916666666667" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/IKC/app/src/main/res/drawable/button_fff3d8_round.xml" value="0.34629629629629627" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/IKC/app/src/main/res/drawable/ic_arrow_close.xml" value="0.21822916666666667" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/IKC/app/src/main/res/drawable/ic_baseline_favorite_border_24.xml" value="0.34629629629629627" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/IKC/app/src/main/res/drawable/ic_img11.xml" value="0.34629629629629627" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/IKC/app/src/main/res/drawable/ic_launcher_background.xml" value="0.21822916666666667" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/IKC/app/src/main/res/drawable/ic_logout.xml" value="0.34629629629629627" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/IKC/app/src/main/res/drawable/image_maincolor_round.xml" value="0.34629629629629627" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/IKC/app/src/main/res/drawable/shape_round_11dp_aaa_1dp.xml" value="0.34629629629629627" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/IKC/app/src/main/res/drawable/shape_round_18dp_2e4887_1dp.xml" value="0.34629629629629627" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/IKC/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/IKC/app/src/main/res/layout/activity_splash.xml" value="0.20260416666666667" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/IKC/app/src/main/res/layout/appbar.xml" value="0.20260416666666667" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/IKC/app/src/main/res/layout/fragment_category.xml" value="0.22" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/IKC/app/src/main/res/layout/fragment_community.xml" value="0.20208333333333334" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/IKC/app/src/main/res/layout/fragment_detail_category.xml" value="0.20208333333333334" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/IKC/app/src/main/res/layout/fragment_guidance.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/IKC/app/src/main/res/layout/fragment_home.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/IKC/app/src/main/res/layout/fragment_login.xml" value="0.20260416666666667" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/IKC/app/src/main/res/layout/fragment_mypage.xml" value="0.33" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/IKC/app/src/main/res/layout/fragment_notion.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/IKC/app/src/main/res/layout/fragment_post.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/IKC/app/src/main/res/layout/fragment_post2.xml" value="0.33" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/IKC/app/src/main/res/layout/fragment_preferences.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/IKC/app/src/main/res/layout/fragment_profile_edit.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/IKC/app/src/main/res/layout/fragment_profile_tab.xml" value="0.20208333333333334" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/IKC/app/src/main/res/layout/fragment_search.xml" value="0.20208333333333334" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/IKC/app/src/main/res/layout/fragment_sign_up.xml" value="0.25" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/IKC/app/src/main/res/layout/item_detail_category.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/IKC/app/src/main/res/menu/bottom_nav_menu.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/gkrls/StudioProjects/IKC/app/src/main/res/drawable-v24/button_custom.xml" value="0.22291666666666668" />
+        <entry key="..\:/Users/gkrls/StudioProjects/IKC/app/src/main/res/drawable-v24/ic_search.xml" value="0.21927083333333333" />
+        <entry key="..\:/Users/gkrls/StudioProjects/IKC/app/src/main/res/drawable-v24/menu_select_color.xml" value="0.21927083333333333" />
+        <entry key="..\:/Users/gkrls/StudioProjects/IKC/app/src/main/res/drawable-v24/shape_round_5dp_aaa_1dp.xml" value="0.22291666666666668" />
+        <entry key="..\:/Users/gkrls/StudioProjects/IKC/app/src/main/res/drawable-v24/splash.xml" value="0.22291666666666668" />
+        <entry key="..\:/Users/gkrls/StudioProjects/IKC/app/src/main/res/drawable/bg_spinner.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/gkrls/StudioProjects/IKC/app/src/main/res/drawable/bottom_line_maincolor_1dp.xml" value="0.22291666666666668" />
+        <entry key="..\:/Users/gkrls/StudioProjects/IKC/app/src/main/res/drawable/bottom_navigation_custom.xml" value="0.22291666666666668" />
+        <entry key="..\:/Users/gkrls/StudioProjects/IKC/app/src/main/res/drawable/bottom_navigation_custom2.xml" value="0.22291666666666668" />
+        <entry key="..\:/Users/gkrls/StudioProjects/IKC/app/src/main/res/drawable/button_f2f2f2_round.xml" value="0.22291666666666668" />
+        <entry key="..\:/Users/gkrls/StudioProjects/IKC/app/src/main/res/drawable/ic_baseline_favorite_border_24.xml" value="0.24166666666666667" />
+        <entry key="..\:/Users/gkrls/StudioProjects/IKC/app/src/main/res/drawable/ic_baseline_keyboard_arrow_down_24.xml" value="0.22239583333333332" />
+        <entry key="..\:/Users/gkrls/StudioProjects/IKC/app/src/main/res/drawable/ic_us.xml" value="0.13796296296296295" />
+        <entry key="..\:/Users/gkrls/StudioProjects/IKC/app/src/main/res/drawable/shape_round_11dp_aaa_1dp.xml" value="0.22291666666666668" />
+        <entry key="..\:/Users/gkrls/StudioProjects/IKC/app/src/main/res/drawable/shape_round_18dp_2e4887_1dp.xml" value="0.22291666666666668" />
+        <entry key="..\:/Users/gkrls/StudioProjects/IKC/app/src/main/res/layout/activity_splash.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/gkrls/StudioProjects/IKC/app/src/main/res/layout/appbar.xml" value="0.13360507246376813" />
+        <entry key="..\:/Users/gkrls/StudioProjects/IKC/app/src/main/res/layout/bottom_sheet_dialog.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/gkrls/StudioProjects/IKC/app/src/main/res/layout/fragment_category.xml" value="0.203125" />
+        <entry key="..\:/Users/gkrls/StudioProjects/IKC/app/src/main/res/layout/fragment_detail_board.xml" value="0.203125" />
+        <entry key="..\:/Users/gkrls/StudioProjects/IKC/app/src/main/res/layout/fragment_detail_category.xml" value="0.48651685393258426" />
+        <entry key="..\:/Users/gkrls/StudioProjects/IKC/app/src/main/res/layout/fragment_home.xml" value="0.28023407022106633" />
+        <entry key="..\:/Users/gkrls/StudioProjects/IKC/app/src/main/res/layout/fragment_login.xml" value="0.33" />
+        <entry key="..\:/Users/gkrls/StudioProjects/IKC/app/src/main/res/layout/fragment_mypage.xml" value="0.14402173913043478" />
+        <entry key="..\:/Users/gkrls/StudioProjects/IKC/app/src/main/res/layout/fragment_post.xml" value="0.203125" />
+        <entry key="..\:/Users/gkrls/StudioProjects/IKC/app/src/main/res/layout/fragment_post2.xml" value="0.5" />
+        <entry key="..\:/Users/gkrls/StudioProjects/IKC/app/src/main/res/layout/fragment_search.xml" value="0.32527105921601335" />
+        <entry key="..\:/Users/gkrls/StudioProjects/IKC/app/src/main/res/layout/fragment_search_password.xml" value="0.22395833333333334" />
+        <entry key="..\:/Users/gkrls/StudioProjects/IKC/app/src/main/res/layout/fragment_sign_up.xml" value="0.22" />
+        <entry key="..\:/Users/gkrls/StudioProjects/IKC/app/src/main/res/layout/fragment_total.xml" value="0.203125" />
+        <entry key="..\:/Users/gkrls/StudioProjects/IKC/app/src/main/res/layout/item_detail_category.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/gkrls/StudioProjects/IKC/app/src/main/res/layout/item_spinner.xml" value="0.22395833333333334" />
+        <entry key="..\:/Users/gkrls/StudioProjects/IKC/app/src/main/res/menu/bottom_nav_menu.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/gkrls/StudioProjects/miggle/app/src/main/res/drawable-v24/button_custom.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/gkrls/StudioProjects/miggle/app/src/main/res/drawable-v24/edge.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/gkrls/StudioProjects/miggle/app/src/main/res/drawable/ic_android_black_24dp.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/gkrls/StudioProjects/miggle/app/src/main/res/layout/activity_guide.xml" value="0.2046875" />
+        <entry key="..\:/Users/gkrls/StudioProjects/miggle/app/src/main/res/layout/activity_login.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/gkrls/StudioProjects/miggle/app/src/main/res/layout/activity_main.xml" value="0.15" />
+        <entry key="..\:/Users/gkrls/StudioProjects/miggle/app/src/main/res/layout/activity_splash.xml" value="0.2046875" />
+        <entry key="..\:/Users/gkrls/StudioProjects/miggle/app/src/main/res/layout/bottom_sheet_dialog.xml" value="0.2046875" />
+        <entry key="..\:/Users/gkrls/StudioProjects/miggle/app/src/main/res/layout/dialog_login_check.xml" value="0.2046875" />
+        <entry key="..\:/Users/gkrls/StudioProjects/miggle/app/src/main/res/layout/dialog_message.xml" value="0.2046875" />
+        <entry key="..\:/Users/gkrls/StudioProjects/miggle/app/src/main/res/layout/fragment_calculator.xml" value="0.2046875" />
+        <entry key="..\:/Users/gkrls/StudioProjects/miggle/app/src/main/res/layout/fragment_daily_report.xml" value="0.2046875" />
+        <entry key="..\:/Users/gkrls/StudioProjects/miggle/app/src/main/res/layout/fragment_home.xml" value="0.5" />
+        <entry key="..\:/Users/gkrls/StudioProjects/miggle/app/src/main/res/layout/fragment_img1.xml" value="0.2046875" />
+        <entry key="..\:/Users/gkrls/StudioProjects/miggle/app/src/main/res/layout/fragment_login.xml" value="0.33" />
+        <entry key="..\:/Users/gkrls/StudioProjects/miggle/app/src/main/res/layout/fragment_main.xml" value="0.2046875" />
+        <entry key="..\:/Users/gkrls/StudioProjects/miggle/app/src/main/res/layout/fragment_notion.xml" value="0.2046875" />
+        <entry key="..\:/Users/yun/AndroidStudioProjects/miggle/app/src/main/res/drawable-v24/comment.xml" value="0.11203703703703703" />
+        <entry key="..\:/Users/yun/AndroidStudioProjects/miggle/app/src/main/res/drawable-v24/community_search_button.xml" value="0.11203703703703703" />
+        <entry key="..\:/Users/yun/AndroidStudioProjects/miggle/app/src/main/res/drawable-v24/ic_home.xml" value="0.3764102564102564" />
+        <entry key="..\:/Users/yun/AndroidStudioProjects/miggle/app/src/main/res/drawable-v24/like_button.xml" value="0.11203703703703703" />
+        <entry key="..\:/Users/yun/AndroidStudioProjects/miggle/app/src/main/res/drawable-v24/shape_button_round.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/yun/AndroidStudioProjects/miggle/app/src/main/res/drawable-v24/shape_red_round.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/yun/AndroidStudioProjects/miggle/app/src/main/res/drawable-v24/shape_round_aaa_1dp.xml" value="0.11203703703703703" />
+        <entry key="..\:/Users/yun/AndroidStudioProjects/miggle/app/src/main/res/drawable-v24/splash.xml" value="0.11203703703703703" />
+        <entry key="..\:/Users/yun/AndroidStudioProjects/miggle/app/src/main/res/drawable-v24/text_color_state.xml" value="0.11203703703703703" />
+        <entry key="..\:/Users/yun/AndroidStudioProjects/miggle/app/src/main/res/drawable/shape_round_11dp_aaa_1dp.xml" value="0.11018518518518519" />
+        <entry key="..\:/Users/yun/AndroidStudioProjects/miggle/app/src/main/res/drawable/shape_round_2e4887_1dp.xml" value="0.11018518518518519" />
+        <entry key="..\:/Users/yun/AndroidStudioProjects/miggle/app/src/main/res/drawable/shape_round_3_1dp.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/yun/AndroidStudioProjects/miggle/app/src/main/res/layout/activity_splash.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/yun/AndroidStudioProjects/miggle/app/src/main/res/layout/appbar.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/yun/AndroidStudioProjects/miggle/app/src/main/res/layout/bottom_sheet_dialog_login_check.xml" value="0.1" />
+        <entry key="..\:/Users/yun/AndroidStudioProjects/miggle/app/src/main/res/layout/custom_dialog.xml" value="0.5" />
+        <entry key="..\:/Users/yun/AndroidStudioProjects/miggle/app/src/main/res/layout/dialog_login_check.xml" value="0.40298507462686567" />
+        <entry key="..\:/Users/yun/AndroidStudioProjects/miggle/app/src/main/res/layout/dialog_message.xml" value="0.33" />
+        <entry key="..\:/Users/yun/AndroidStudioProjects/miggle/app/src/main/res/layout/dialog_progress.xml" value="0.1" />
+        <entry key="..\:/Users/yun/AndroidStudioProjects/miggle/app/src/main/res/layout/fragment_community.xml" value="0.33" />
+        <entry key="..\:/Users/yun/AndroidStudioProjects/miggle/app/src/main/res/layout/fragment_dashboard.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/yun/AndroidStudioProjects/miggle/app/src/main/res/layout/fragment_detail_board.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/yun/AndroidStudioProjects/miggle/app/src/main/res/layout/fragment_home.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/yun/AndroidStudioProjects/miggle/app/src/main/res/layout/fragment_notifications.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/yun/AndroidStudioProjects/miggle/app/src/main/res/layout/fragment_notion.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/yun/AndroidStudioProjects/miggle/app/src/main/res/layout/fragment_post.xml" value="0.35052083333333334" />
+        <entry key="..\:/Users/yun/AndroidStudioProjects/miggle/app/src/main/res/layout/fragment_preferences.xml" value="0.2640625" />
+        <entry key="..\:/Users/yun/AndroidStudioProjects/miggle/app/src/main/res/layout/fragment_profile_tab.xml" value="0.67" />
+        <entry key="..\:/Users/yun/AndroidStudioProjects/miggle/app/src/main/res/layout/fragment_search.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/yun/AndroidStudioProjects/miggle/app/src/main/res/layout/item_indicator_recycler.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/yun/AndroidStudioProjects/miggle/app/src/main/res/layout/item_like_stock.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/yun/AndroidStudioProjects/miggle/app/src/main/res/layout/item_post_recycler.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/yun/AndroidStudioProjects/miggle/app/src/main/res/layout/item_post_recycler_unused.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/yun/AndroidStudioProjects/miggle/app/src/main/res/menu/bottom_nav_menu.xml" value="0.36614583333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.40298507462686567" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

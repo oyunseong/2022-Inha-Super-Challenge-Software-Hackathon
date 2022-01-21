@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/my_page_profile_image"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="48dp"
+        android:src="@drawable/profile_ovel"
+        app:civ_border_color="#A1A1A1"
+        app:civ_border_width="1dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/my_page_nickname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="45dp"
+        android:text="YUN SEONG"
+        android:textColor="#ff8e3b"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toRightOf="@id/my_page_profile_image"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/my_page_sub_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Is there any information you want to change?"
+        android:textColor="#737373"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="@id/my_page_nickname"
+        app:layout_constraintTop_toBottomOf="@id/my_page_nickname" />
+
+    <!-- 회원 정보 설정 -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/user_setting_card"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="10dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="2dp"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/alarm_card"
+        app:layout_constraintTop_toBottomOf="@id/my_page_profile_image">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/user_setting_const"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#fff3d8">
+
+            <TextView
+                android:id="@+id/user_setting_text"
+                style="@style/Text.BrownFont"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="User information\n\t\t\t\t Setting"
+                app:layout_constraintLeft_toLeftOf="@id/user_setting_const"
+                app:layout_constraintRight_toRightOf="@id/user_setting_const"
+                app:layout_constraintTop_toTopOf="@id/user_setting_const" />
+
+
+            <ImageView
+                android:layout_width="102dp"
+                android:layout_height="102dp"
+                android:layout_marginTop="11dp"
+                android:src="@drawable/img_mypage_1"
+                app:layout_constraintLeft_toLeftOf="@id/user_setting_const"
+                app:layout_constraintRight_toRightOf="@id/user_setting_const"
+                app:layout_constraintTop_toBottomOf="@id/user_setting_text" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- 알림 설정 -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/alarm_card"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_marginStart="10dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="2dp"
+        app:layout_constraintLeft_toRightOf="@id/user_setting_card"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/user_setting_card">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/alarm_const"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffe4b6">
+
+            <TextView
+                android:id="@+id/alarm_text"
+                style="@style/Text.BrownFont"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Notification Setting"
+                app:layout_constraintLeft_toLeftOf="@id/alarm_const"
+                app:layout_constraintRight_toRightOf="@id/alarm_const"
+                app:layout_constraintTop_toTopOf="@id/alarm_const" />
+
+            <ImageView
+                android:layout_width="102dp"
+                android:layout_height="102dp"
+                android:layout_marginTop="11dp"
+                android:src="@drawable/img_mypage_2"
+                app:layout_constraintLeft_toLeftOf="@id/alarm_const"
+                app:layout_constraintRight_toRightOf="@id/alarm_const"
+                app:layout_constraintTop_toBottomOf="@id/alarm_text" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- 추천 카테고리 설정 -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/recommendation_category_card"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="2dp"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/notion_card"
+        app:layout_constraintTop_toBottomOf="@id/user_setting_card">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/recommendation_category_card_const"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffe4b6">
+
+            <TextView
+                android:id="@+id/recommendation_category_text"
+                style="@style/Text.BrownFont"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Recommendation\n\t\t\t\t Category"
+                app:layout_constraintLeft_toLeftOf="@id/recommendation_category_card_const"
+                app:layout_constraintRight_toRightOf="@id/recommendation_category_card_const"
+                app:layout_constraintTop_toTopOf="@id/recommendation_category_card_const" />
+
+            <ImageView
+                android:layout_width="102dp"
+                android:layout_height="82dp"
+                android:layout_marginTop="11dp"
+                android:src="@drawable/img_mypage_3"
+                app:layout_constraintLeft_toLeftOf="@id/recommendation_category_card_const"
+                app:layout_constraintRight_toRightOf="@id/recommendation_category_card_const"
+                app:layout_constraintTop_toBottomOf="@id/recommendation_category_text" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- 공지사항 -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/notion_card"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_marginStart="10dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="2dp"
+        app:layout_constraintLeft_toRightOf="@id/recommendation_category_card"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/recommendation_category_card">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/notion_const"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#fff3d8">
+
+            <TextView
+                android:id="@+id/notion_text"
+                style="@style/Text.BrownFont"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Notion"
+                app:layout_constraintLeft_toLeftOf="@id/notion_const"
+                app:layout_constraintRight_toRightOf="@id/notion_const"
+                app:layout_constraintTop_toTopOf="@id/notion_const" />
+
+            <ImageView
+                android:layout_width="102dp"
+                android:layout_height="102dp"
+                android:layout_marginTop="11dp"
+                android:src="@drawable/img_mypage_4"
+                app:layout_constraintLeft_toLeftOf="@id/notion_const"
+                app:layout_constraintRight_toRightOf="@id/notion_const"
+                app:layout_constraintTop_toBottomOf="@id/notion_text" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+
+    <!-- 질문 버튼 -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/question_card"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="12dp"
+        app:cardCornerRadius="25dp"
+        app:cardElevation="2dp"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/logout_card"
+        app:layout_constraintTop_toBottomOf="@id/recommendation_category_card">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/question_const"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#f2f2f2">
+
+            <TextView
+                android:id="@+id/question_text"
+                style="@style/Text.BrownFont"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Question"
+                android:textColor="#b3b3b3"
+                app:layout_constraintBottom_toBottomOf="@id/question_const"
+                app:layout_constraintLeft_toLeftOf="@id/question_const"
+                app:layout_constraintRight_toRightOf="@id/question_const"
+                app:layout_constraintTop_toTopOf="@id/question_const" />
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/ic_arrow_close"
+                app:layout_constraintBottom_toBottomOf="@id/question_const"
+                app:layout_constraintRight_toRightOf="@id/question_const"
+                app:layout_constraintTop_toTopOf="@id/question_const" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- 로그아웃 -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/logout_card"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="12dp"
+        app:cardCornerRadius="25dp"
+        app:cardElevation="2dp"
+        app:layout_constraintLeft_toRightOf="@id/question_card"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/question_card">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/logout_const"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#f2f2f2">
+
+            <TextView
+                android:id="@+id/logout_text"
+                style="@style/Text.BrownFont"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LogOut"
+                android:textColor="#b3b3b3"
+                app:layout_constraintBottom_toBottomOf="@id/logout_const"
+                app:layout_constraintLeft_toLeftOf="@id/logout_const"
+                app:layout_constraintRight_toRightOf="@id/logout_const"
+                app:layout_constraintTop_toTopOf="@id/logout_const" />
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/ic_logout"
+                app:layout_constraintBottom_toBottomOf="@id/logout_const"
+                app:layout_constraintRight_toRightOf="@id/logout_const"
+                app:layout_constraintTop_toTopOf="@id/logout_const" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

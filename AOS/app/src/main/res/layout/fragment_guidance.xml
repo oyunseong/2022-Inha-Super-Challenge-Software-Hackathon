@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <include
+        android:id="@+id/guidance_appbar"
+        layout="@layout/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/title_card"
+        android:layout_width="0dp"
+        android:layout_height="49.6dp"
+        android:layout_marginHorizontal="24.4dp"
+        android:layout_marginTop="35.2dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="3.3dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/guidance_appbar">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/dail_report_title_const"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/gradient_button_color">
+
+            <TextView
+                style="@style/Text.WhiteFont"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="미글 사용 길라잡이"
+                android:textSize="16.7sp"
+                app:layout_constraintBottom_toBottomOf="@id/dail_report_title_const"
+                app:layout_constraintLeft_toLeftOf="@id/dail_report_title_const"
+                app:layout_constraintRight_toRightOf="@id/dail_report_title_const"
+                app:layout_constraintTop_toTopOf="@id/dail_report_title_const" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/dail_report_first_card"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_marginHorizontal="21.8dp"
+        android:layout_marginTop="35.2dp"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="3.3dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/title_card">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/dail_report_first_const"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/guide_card_color">
+
+            <TextView
+                style="@style/Text.BlackFont"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="31dp"
+                android:text="같이가는\n가치투자"
+                android:textSize="16.7sp"
+                app:layout_constraintBottom_toBottomOf="@id/dail_report_first_const"
+                app:layout_constraintLeft_toLeftOf="@id/dail_report_first_const"
+                app:layout_constraintTop_toTopOf="@id/dail_report_first_const" />
+
+            <ImageView
+                android:id="@+id/ranking_image1"
+                android:layout_width="70dp"
+                android:layout_height="60dp"
+                android:layout_marginEnd="34.3dp"
+                android:background="@drawable/ic_ranking"
+                app:layout_constraintBottom_toBottomOf="@id/dail_report_first_const"
+                app:layout_constraintRight_toRightOf="@id/dail_report_first_const" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/dail_report_second_card"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_marginHorizontal="21.8dp"
+        android:layout_marginTop="13dp"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="3.3dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/dail_report_first_card">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/dail_report_second_const"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/guide_card_color">
+
+            <TextView
+                style="@style/Text.BlackFont"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="31dp"
+                android:text="실제 전문가는\n어떻게 투자할까요?"
+                android:textSize="16.7sp"
+                app:layout_constraintBottom_toBottomOf="@id/dail_report_second_const"
+                app:layout_constraintLeft_toLeftOf="@id/dail_report_second_const"
+                app:layout_constraintTop_toTopOf="@id/dail_report_second_const" />
+
+            <ImageView
+                android:id="@+id/ranking_image2"
+                android:layout_width="70dp"
+                android:layout_height="60dp"
+                android:layout_marginEnd="34.3dp"
+                android:background="@drawable/ic_ranking"
+                app:layout_constraintBottom_toBottomOf="@id/dail_report_second_const"
+                app:layout_constraintRight_toRightOf="@id/dail_report_second_const" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/dail_report_third_card"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_marginHorizontal="21.8dp"
+        android:layout_marginTop="13dp"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="3.3dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/dail_report_second_card">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/dail_report_third_const"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/guide_card_color">
+
+            <TextView
+                style="@style/Text.BlackFont"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="31dp"
+                android:text="너도 할 수 있어\n애널리스트!"
+                android:textSize="16.7sp"
+                app:layout_constraintBottom_toBottomOf="@id/dail_report_third_const"
+                app:layout_constraintLeft_toLeftOf="@id/dail_report_third_const"
+                app:layout_constraintTop_toTopOf="@id/dail_report_third_const" />
+
+            <ImageView
+                android:id="@+id/ranking_image3"
+                android:layout_width="70dp"
+                android:layout_height="60dp"
+                android:layout_marginEnd="34.3dp"
+                android:background="@drawable/ic_ranking"
+                app:layout_constraintBottom_toBottomOf="@id/dail_report_third_const"
+                app:layout_constraintRight_toRightOf="@id/dail_report_third_const" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/dail_report_fourth_card"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_marginHorizontal="21.8dp"
+        android:layout_marginTop="13dp"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="3.3dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/dail_report_third_card">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/dail_report_fourth_const"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/guide_card_color">
+
+            <TextView
+                style="@style/Text.BlackFont"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="31dp"
+                android:text="테이퍼링이 뭔데\n주식시장이 흔들리나요?"
+                android:textSize="16.7sp"
+                app:layout_constraintBottom_toBottomOf="@id/dail_report_fourth_const"
+                app:layout_constraintLeft_toLeftOf="@id/dail_report_fourth_const"
+                app:layout_constraintTop_toTopOf="@id/dail_report_fourth_const" />
+
+            <ImageView
+                android:id="@+id/ranking_image4"
+                android:layout_width="70dp"
+                android:layout_height="60dp"
+                android:layout_marginEnd="34.3dp"
+                android:background="@drawable/ic_ranking"
+                app:layout_constraintBottom_toBottomOf="@id/dail_report_fourth_const"
+                app:layout_constraintRight_toRightOf="@id/dail_report_fourth_const" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/dail_report_fifth_card5"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_marginHorizontal="21.8dp"
+        android:layout_marginTop="13dp"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="3.3dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/dail_report_fourth_card">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/dail_report_fifth_const"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/guide_card_color">
+
+            <TextView
+                style="@style/Text.BlackFont"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="31dp"
+                android:text="why 미글??"
+                android:textSize="16.7sp"
+                app:layout_constraintBottom_toBottomOf="@id/dail_report_fifth_const"
+                app:layout_constraintLeft_toLeftOf="@id/dail_report_fifth_const"
+                app:layout_constraintTop_toTopOf="@id/dail_report_fifth_const" />
+
+            <ImageView
+                android:id="@+id/ranking_image"
+                android:layout_width="70dp"
+                android:layout_height="60dp"
+                android:layout_marginEnd="34.3dp"
+                android:background="@drawable/ic_ranking"
+                app:layout_constraintBottom_toBottomOf="@id/dail_report_fifth_const"
+                app:layout_constraintRight_toRightOf="@id/dail_report_fifth_const" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/dail_report_button_card"
+        android:layout_width="0dp"
+        android:layout_marginHorizontal="103dp"
+        android:layout_height="31.7dp"
+        android:layout_marginTop="16.9dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="2dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="30dp"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/dail_report_button_card_const"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white">
+
+            <TextView
+                android:id="@+id/notion_button_tv2"
+                style="@style/Text.BlackFont"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="알람설정"
+                app:layout_constraintRight_toRightOf="@id/dail_report_button_card_const"
+                app:layout_constraintLeft_toLeftOf="@id/dail_report_button_card_const"
+                app:layout_constraintBottom_toBottomOf="@id/dail_report_button_card_const"
+                app:layout_constraintTop_toTopOf="@id/dail_report_button_card_const" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

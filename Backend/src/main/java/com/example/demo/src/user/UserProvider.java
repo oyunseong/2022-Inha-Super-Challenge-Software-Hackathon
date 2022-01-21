@@ -104,8 +104,8 @@ public class UserProvider {
      * 상세화면 하나
      * @return
      */
-    public GetDetailPageOne getDetailPageOne(String name){
-        GetDetailPageOne getDetailPageOne = userDao.getDetailPage(name);
+    public List<GetDetailPageOne> getDetailPageOne(){
+        List<GetDetailPageOne> getDetailPageOne = userDao.getDetailPage();
         return getDetailPageOne;
     }
 

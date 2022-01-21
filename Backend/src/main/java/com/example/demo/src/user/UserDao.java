@@ -179,15 +179,15 @@ public class UserDao {
     /**
      * 세부화면(하나 데이터)
      */
-    public GetDetailPageOne getDetailPage(String name) {
-        GetDetailPageOne getDetailPage = this.jdbcTemplate.queryForObject("select koreaTitle,englishTitle,imageUrl,englishExplain,movieUrl from KCulture where englishTitle=?",
+    public List<GetDetailPageOne> getDetailPage() {
+        List<GetDetailPageOne> getDetailPage = this.jdbcTemplate.query("select koreaTitle,englishTitle,imageUrl,englishExplain,movieUrl from KCulture where englishTitle='SquidGame'",
                 (rs,rownum) -> new GetDetailPageOne(
                         rs.getString("koreaTitle"),
                         rs.getString("englishTitle"),
                         rs.getString("imageUrl"),
                         rs.getString("englishExplain"),
                         rs.getString("movieUrl")
-                ),name);
+                ));
         return getDetailPage;
     }
 

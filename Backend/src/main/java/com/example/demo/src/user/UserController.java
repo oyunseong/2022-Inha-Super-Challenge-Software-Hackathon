@@ -122,8 +122,8 @@ public class UserController {
      */
     @ResponseBody
     @GetMapping("/detailPageOne")
-    public BaseResponse<GetDetailPageOne> getDetailPageOneBaseResponse(@RequestParam(value = "name", required = true) String name){
-            GetDetailPageOne getDetailPageOne = userProvider.getDetailPageOne(name);
+    public BaseResponse<List<GetDetailPageOne>> getDetailPageOneBaseResponse(){
+            List<GetDetailPageOne> getDetailPageOne = userProvider.getDetailPageOne();
             return new BaseResponse<>(getDetailPageOne);
     }
 
@@ -136,7 +136,7 @@ public class UserController {
         List<GetReview> getReview = userProvider.getReview();
         return new BaseResponse<>(getReview);
     }
-    
+
 
 
 

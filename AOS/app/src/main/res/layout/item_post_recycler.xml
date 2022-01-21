@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/post_item_background"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:padding="12dp">
+
+    <TextView
+        android:id="@+id/item_post_title"
+        style="@style/Text.BlackFont"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textSize="15sp"
+        android:text="[주간증시전망]외국인 컴백한 걸까…월말 美 FOMC 관건"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/item_post_comment_count"
+        style="@style/Text.MainColorFont"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        app:layout_constraintLeft_toRightOf="@id/item_post_title"
+        app:layout_constraintTop_toTopOf="@id/item_post_title"
+        tools:text="[8]" />
+
+    <TextView
+        android:id="@+id/item_post_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:textColor="@color/black"
+        android:text="ddddd"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/item_post_title"
+        />
+
+
+    <TextView
+        android:id="@+id/item_post_nickname"
+        style="@style/Text.HintFont"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#99333333"
+        android:text="미글 운영진"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/item_post_content" />
+
+    <TextView
+        android:id="@+id/item_post_time"
+        style="@style/Text.HintFont"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:textStyle="normal"
+        android:textColor="@color/main_color"
+        app:layout_constraintLeft_toRightOf="@id/item_post_nickname"
+        app:layout_constraintTop_toTopOf="@id/item_post_nickname"
+        tools:text="3분전" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:drawableLeft="@drawable/ic_like_count"
+        android:visibility="gone"
+        app:layout_constraintLeft_toRightOf="@id/item_post_time"
+        app:layout_constraintTop_toTopOf="@id/item_post_time"
+        tools:text="3" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

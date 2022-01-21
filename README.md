@@ -68,6 +68,7 @@
 ## :mortar_board: business feasibility & future development :mortar_board:
  + **business feasibility**
 
+ + **future development**
  + **K-Content 추가 - 음악, 음식, 뷰티 등**
  + **AI 알고리즘을 통한 개인에 맞는 해당 국가에서 K-Content를 즐길 수 있는 위치, 방안 추천**
 

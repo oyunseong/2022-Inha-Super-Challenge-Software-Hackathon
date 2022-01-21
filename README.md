@@ -65,12 +65,16 @@
 
 
 
-## :mortar_board: business feasibility & future development :mortar_board:
- + **business feasibility**
+## :mortar_board: business feasibility & future development & Differentiation :mortar_board:
+ + **:blue_book: business feasibility**
 
  + **future development**
  + **K-Content 추가 - 음악, 음식, 뷰티 등**
  + **AI 알고리즘을 통한 개인에 맞는 해당 국가에서 K-Content를 즐길 수 있는 위치, 방안 추천**
+ + **Differentiation**
+ + **장르(드라마,영화)가 특화되어서 다르다**
+ + **서비스의 차이(OTT플랫폼과는 다르게 본인 국가의 컨텐츠 추천이 아닌 K-Content에 국한되어 추천해준다)**
+ + **컨텐츠의 차이(OTT플랫폼과는 다르게 K-Content를 전부 소개해 준다)**
 
 
 ## :seedling: Contributor :seedling:

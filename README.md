@@ -32,6 +32,8 @@
   
   
   ## :page_facing_up: development background
+  
+  **Problem : K-Culture가 외국에 전파되고 있지만 실질적으로 외국인들이 K-Culture를 접해보지 못하는 경우가 많고 K-Culture를 한국의 문화가 아닌 다른 나라의 문화로 오해를 하는 경우가 많음 **
 
 
 

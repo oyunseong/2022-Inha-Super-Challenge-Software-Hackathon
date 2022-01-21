@@ -60,8 +60,9 @@
 
 ## :flags: App View
 
-<img src="https://user-images.githubusercontent.com/84491771/150553267-26580a19-d8a1-46bc-b73e-68d58939636e.png" width="300" height="400"/>  * **메인페이지 - 메인페이지에는 컨텐츠의 정보를 제공한다**
-<img src="https://user-images.githubusercontent.com/84491771/150542489-ba5982b9-0653-4e17-8f0d-8d3be23e97b5.png" width="300" height="400"/>  * **메인페이지**
+<img src="https://user-images.githubusercontent.com/84491771/150553267-26580a19-d8a1-46bc-b73e-68d58939636e.png" width="300" height="400"/><img src="https://user-images.githubusercontent.com/84491771/150542489-ba5982b9-0653-4e17-8f0d-8d3be23e97b5.png" width="300" height="400"/>  * **메인페이지**
+
+ * **메인페이지 - 메인페이지에는 컨텐츠의 정보를 제공한다**
 
 
 

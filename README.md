@@ -69,9 +69,9 @@
 
 **Planner - 김시원**
 
-**AOS Developer - 오윤성**
+**AOS Developer - 오윤성**<a href="https://github.com/oyunseong" target="_blank"><img src="https://img.shields.io/badge/oyunseong-000000?style=plastic&logo=#F40D12&logoColor=000000"/></a>
 
-**Backend Developer - 현기창**
+**Backend Developer - 현기창**<a href="https://github.com/developer-hyun" target="_blank"><img src="https://img.shields.io/badge/developer-hyun-000000?style=plastic&logo=#F40D12&logoColor=000000"/></a>
 
 
 

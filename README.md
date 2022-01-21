@@ -2,7 +2,7 @@
 
 ## :flashlight: _2022 인하대 소프트웨어 해커톤 출품작_  :flashlight:
 
-### :sunflower: Team IKC <img src="https://user-images.githubusercontent.com/84491771/150556898-8efd9c13-2b86-42db-88d4-b3e644acf0c6.png" width="50" height="50"/>  <img src="https://user-images.githubusercontent.com/84491771/150557001-f1cf795d-a49b-4adc-9551-aa981b64190b.png" width="50" height="50"/>
+### :sunflower: Team IKC <img src="https://user-images.githubusercontent.com/84491771/150556898-8efd9c13-2b86-42db-88d4-b3e644acf0c6.png" width="30" height="30"/>  <img src="https://user-images.githubusercontent.com/84491771/150557001-f1cf795d-a49b-4adc-9551-aa981b64190b.png" width="30" height="30"/>
 
 
 <a href="https://github.com/oyunseong" target="_blank"><img src="https://img.shields.io/badge/oyunseong-000000?style=plastic&logo=#F40D12&logoColor=000000"/></a> <a href="https://github.com/developer-hyun" target="_blank"><img src="https://img.shields.io/badge/developer-hyun-000000?style=plastic&logo=#F40D12&logoColor=000000"/></a>

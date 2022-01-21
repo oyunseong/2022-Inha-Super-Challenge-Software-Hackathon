@@ -10,7 +10,7 @@
 ## Environment
 
 <img src="https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=Android&logoColor=white"/>
-<img src="https://img.shields.io/badge/#7A1FA2?style=flat-square&logo=EN&logoColor=white"/>
+<img src="https://img.shields.io/badge/Aiqfome?style=flat-square&logo=EN&logoColor=#7A1FA2"/>
 
 Aiqfome
 

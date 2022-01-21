@@ -82,7 +82,9 @@
 <img src="https://user-images.githubusercontent.com/84491771/150556361-551784a0-50c7-40c1-ab43-bd730e627c4a.png" width="300" height="400"/><img src="https://user-images.githubusercontent.com/84491771/150556370-59123b3d-d5f5-403f-ab73-7106d5dc6c95.png" width="300" height="400"/><img src="https://user-images.githubusercontent.com/84491771/150556596-dbb5fe1b-65dc-41f3-bf05-1fbfea4fcebf.png" width="300" height="400"/>
  **회원가입 페이지**
  * **1) 회원가입을 제공한다**
- * **2,3) 회원가입 정보 입력 시 국가정보를 받아 해당 국가의 사람이 많이 본 컨텐츠를 데이터를 바탕으로 제공한다
+ * **2,3) 회원가입 정보 입력 시 국가정보를 받아 해당 국가의 사람이 많이 본 컨텐츠를 데이터를 바탕으로 제공한다**
+
+
 
 
 
@@ -97,6 +99,8 @@
  + **장르(드라마,영화)가 특화되어서 다르다**
  + **서비스의 차이(OTT플랫폼과는 다르게 본인 국가의 컨텐츠 추천이 아닌 K-Content에 국한되어 추천해준다)**
  + **컨텐츠의 차이(OTT플랫폼과는 다르게 K-Content를 전부 소개해 준다)**
+
+
 
 
 ## :seedling: Contributor :seedling:

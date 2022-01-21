@@ -107,7 +107,7 @@
 ## :seedling: Contributor :seedling:
 
 
-**Team - IKC**
+**Team - IKC** <img src="https://user-images.githubusercontent.com/84491771/150556898-8efd9c13-2b86-42db-88d4-b3e644acf0c6.png" width="30" height="30"/>  <img src="https://user-images.githubusercontent.com/84491771/150557001-f1cf795d-a49b-4adc-9551-aa981b64190b.png" width="30" height="30"/>
 
 
 + **Planner - 김시원(인하대 - 전기공학과)**

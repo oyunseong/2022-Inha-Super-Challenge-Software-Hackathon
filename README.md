@@ -60,7 +60,32 @@
 
 ## :flags: App View
 
-<img src="https://user-images.githubusercontent.com/84491771/150553267-26580a19-d8a1-46bc-b73e-68d58939636e.png" width="300" height="400"/><img src="https://user-images.githubusercontent.com/84491771/150553993-52c365d9-f251-461b-90a7-b6ce915dc06c.png" width="300" height="400"/>  * **메인페이지**
+<img src="https://user-images.githubusercontent.com/84491771/150555721-18def430-c3af-4db5-94c2-7855a5f7197e.png" width="300" height="400"/><img src="https://user-images.githubusercontent.com/84491771/150553993-52c365d9-f251-461b-90a7-b6ce915dc06c.png" width="300" height="400"/>  
+ **메인페이지** 
+* **1) 메인페이지에는 상단에는 오늘의 추천 드라마&영화를 제공하고 중단에는 유저의 국가에 맞는(회원가입시 데이터를 기반) 추천 서비스를 제공하며 하단에는 한국에서 유행하는 순위 서비스를 제공한다**
+* **2) 메인페이지 우상단 알림은 로그인시에만 활성화되도록 구현하였다(한국 기념일 푸시알람)
+
+
+<img src="https://user-images.githubusercontent.com/84491771/150555045-48b47402-efb9-4e01-ada7-aac2119af8c0.png" width="300" height="400"/><img src="https://user-images.githubusercontent.com/84491771/150555172-d4e1d208-7290-494c-ae8f-1d234fe74cfd.png" width="300" height="400"/>
+ **카테고리 & 마이페이지**
+* **1) 카테고리페이지는 K-Content(드라마,영화)를 보여준다
+* **2) 마이페이지는 유저 정보 수정, 알림설정, 카테고리(국가)설정, 공지사항, 문의사항, 로그아웃을 제공한다
+
+
+
+<img src="https://user-images.githubusercontent.com/84491771/150555467-10477911-cd78-4c39-ac16-285c9e7cb8be.png" width="300" height="400"/><img src="https://user-images.githubusercontent.com/84491771/150555477-afdad5f1-b059-4502-bd3f-3e1d0f499025.png" width="300" height="400"/>
+  **K-Content(상세페이지)**
+ * **1,2) 상세페이지는 K-Content를 클릭하였을 시 보여지며 해당 K-Content에 관한 정보 제공 및 다른 K-Content 제공, 리뷰 제공, 관련 링크를 제공한다
+
+
+
+
+
+
+
+
+<img src="https://user-images.githubusercontent.com/84491771/150554885-13ae245d-4656-4da1-a84f-8a08e0ff3f4a.png" width="300" height="400"/><img src="https://user-images.githubusercontent.com/84491771/150554972-02f33a65-684b-4d39-94ed-7f044d7cc75c.png" width="300" height="400"/
+
 
 
 

@@ -1,6 +1,13 @@
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=developer-hyun&show_icons=true&theme=radical)
+## _2022 인하대 소프트웨어 해커톤 출품작_
 
-2022 인하대 소프트웨어 해커톤 출품작
+<a href="https://github.com/oyunseong" target="_blank"><img src="https://img.shields.io/badge/oyunseong-FFFFFF?style=plastic&logo=#F40D12&logoColor=000000"/></a>
+
+<a href="https://github.com/developer-hyun" target="_blank"><img src="https://img.shields.io/badge/developer-hyun-FFFFFF?style=plastic&logo=#F40D12&logoColor=000000"/></a>
+
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=developer-hyun&show_icons=true&theme=gruvbox_light)
+
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=oyunseong&show_icons=true&theme=gruvbox_light)
+
 
 
   

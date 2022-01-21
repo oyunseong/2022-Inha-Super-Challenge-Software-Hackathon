@@ -58,6 +58,8 @@
 ## :flags: App View
 
 ![image](https://user-images.githubusercontent.com/84491771/150542342-2edac039-2a78-49cc-82ae-c51821613190.png)  * **메인페이지**
+![image](https://user-images.githubusercontent.com/84491771/150542489-ba5982b9-0653-4e17-8f0d-8d3be23e97b5.png)  * **메인페이지**
+
 
 
 

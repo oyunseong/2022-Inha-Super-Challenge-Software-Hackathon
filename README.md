@@ -64,6 +64,17 @@
 
 
 
+## :seedling: Contributor :seedling:
+
+
+**Planner - 김시원**
+
+**AOS Developer - 오윤성**
+
+**Backend Developer - 현기창**
+
+
+
 
 
   

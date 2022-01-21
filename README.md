@@ -79,22 +79,11 @@
 
 
 
+<img src="https://user-images.githubusercontent.com/84491771/150556361-551784a0-50c7-40c1-ab43-bd730e627c4a.png" width="300" height="400"/><img src="https://user-images.githubusercontent.com/84491771/150556370-59123b3d-d5f5-403f-ab73-7106d5dc6c95.png" width="300" height="400"/><img src="https://user-images.githubusercontent.com/84491771/150556596-dbb5fe1b-65dc-41f3-bf05-1fbfea4fcebf.png" width="300" height="400"/>
+ **회원가입 페이지**
+ * **1) 회원가입을 제공한다**
+ * **2,3) 회원가입 정보 입력 시 국가정보를 받아 해당 국가의 사람이 많이 본 컨텐츠를 데이터를 바탕으로 제공한다
 
-
-
-
-
-
-<img src="https://user-images.githubusercontent.com/84491771/150554885-13ae245d-4656-4da1-a84f-8a08e0ff3f4a.png" width="300" height="400"/><img src="https://user-images.githubusercontent.com/84491771/150554972-02f33a65-684b-4d39-94ed-7f044d7cc75c.png" width="300" height="400"/
-
-
-
-
-<img src="https://user-images.githubusercontent.com/84491771/150553993-52c365d9-f251-461b-90a7-b6ce915dc06c.png" width="300" height="400"/>
-<img src="https://user-images.githubusercontent.com/84491771/150553993-52c365d9-f251-461b-90a7-b6ce915dc06c.png" width="300" height="400"/>
-
-
- * **메인페이지 - 메인페이지에는 컨텐츠의 정보를 제공한다**
 
 
 

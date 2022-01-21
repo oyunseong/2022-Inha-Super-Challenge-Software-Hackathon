@@ -1,5 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=wave&color=auto&height=300&section=header&text=INHA%20K
-ackathon&fontSize=90)
+![header](https://capsule-render.vercel.app/api?type=wave&color=auto&height=300&section=header&text=INHA%20Hackathon&fontSize=90)
 
 ## _2022 인하대 소프트웨어 해커톤 출품작_
 

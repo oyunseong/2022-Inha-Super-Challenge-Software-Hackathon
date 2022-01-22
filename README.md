@@ -92,7 +92,8 @@
 
 ## :mortar_board: business feasibility & future development & Differentiation :mortar_board:
  + **:blue_book: business feasibility**
-
+ + **이용자수 확보를 통한 투자유치**
+ + **각 국가별 / 개인별 선호 K-Contents 정보를 판매
  + **:blue_book:future development**
  + **K-Content 추가 - 음악, 음식, 뷰티 등**
  + **AI 알고리즘을 통한 개인에 맞는 해당 국가에서 K-Content를 즐길 수 있는 위치, 방안 추천**

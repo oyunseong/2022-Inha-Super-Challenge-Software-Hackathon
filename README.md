@@ -61,26 +61,26 @@
 
 ## :flags: App View
 
-<img src="https://user-images.githubusercontent.com/84491771/150555721-18def430-c3af-4db5-94c2-7855a5f7197e.png" width="300" height="400"/><img src="https://user-images.githubusercontent.com/84491771/150553993-52c365d9-f251-461b-90a7-b6ce915dc06c.png" width="300" height="400"/>  
+<img src="https://user-images.githubusercontent.com/84491771/150555721-18def430-c3af-4db5-94c2-7855a5f7197e.png" width="270" height="495"/><img src="https://user-images.githubusercontent.com/84491771/150553993-52c365d9-f251-461b-90a7-b6ce915dc06c.png" width="270" height="495"/>  
  **메인페이지** 
 * **1) 메인페이지에는 상단에는 오늘의 추천 드라마&영화를 제공하고 중단에는 유저의 국가에 맞는(회원가입시 데이터를 기반) 추천 서비스를 제공하며 하단에는 한국에서 유행하는 순위 서비스를 제공한다**
 * **2) 메인페이지 우상단 알림은 로그인시에만 활성화되도록 구현하였다(한국 기념일 푸시알람)**
 
 
-<img src="https://user-images.githubusercontent.com/84491771/150555045-48b47402-efb9-4e01-ada7-aac2119af8c0.png" width="300" height="400"/><img src="https://user-images.githubusercontent.com/84491771/150555172-d4e1d208-7290-494c-ae8f-1d234fe74cfd.png" width="300" height="400"/>
+<img src="https://user-images.githubusercontent.com/84491771/150555045-48b47402-efb9-4e01-ada7-aac2119af8c0.png" width="270" height="495"/><img src="https://user-images.githubusercontent.com/84491771/150555172-d4e1d208-7290-494c-ae8f-1d234fe74cfd.png" width="270" height="495"/>
  **카테고리 & 마이페이지**
 * **1) 카테고리페이지는 K-Content(드라마,영화)를 보여준다**
 * **2) 마이페이지는 유저 정보 수정, 알림설정, 카테고리(국가)설정, 공지사항, 문의사항, 로그아웃을 제공한다**
 
 
 
-<img src="https://user-images.githubusercontent.com/84491771/150555467-10477911-cd78-4c39-ac16-285c9e7cb8be.png" width="300" height="400"/><img src="https://user-images.githubusercontent.com/84491771/150556204-b5c46a49-bd3b-4a1c-9e61-de0466ca062a.png" width="300" height="400"/>
+<img src="https://user-images.githubusercontent.com/84491771/150555467-10477911-cd78-4c39-ac16-285c9e7cb8be.png" width="270" height="495"/><img src="https://user-images.githubusercontent.com/84491771/150556204-b5c46a49-bd3b-4a1c-9e61-de0466ca062a.png" width="270" height="495"/>
   **K-Content(상세페이지)**
  * **1,2) 상세페이지는 K-Content를 클릭하였을 시 보여지며 해당 K-Content에 관한 정보 제공 및 다른 K-Content 제공, 리뷰 제공, 관련 링크를 제공한다**
 
 
 
-<img src="https://user-images.githubusercontent.com/84491771/150556361-551784a0-50c7-40c1-ab43-bd730e627c4a.png" width="300" height="400"/><img src="https://user-images.githubusercontent.com/84491771/150556370-59123b3d-d5f5-403f-ab73-7106d5dc6c95.png" width="300" height="400"/><img src="https://user-images.githubusercontent.com/84491771/150556596-dbb5fe1b-65dc-41f3-bf05-1fbfea4fcebf.png" width="300" height="400"/>
+<img src="https://user-images.githubusercontent.com/84491771/150556361-551784a0-50c7-40c1-ab43-bd730e627c4a.png" width="270" height="495"/><img src="https://user-images.githubusercontent.com/84491771/150556370-59123b3d-d5f5-403f-ab73-7106d5dc6c95.png" width="270" height="495"/><img src="https://user-images.githubusercontent.com/84491771/150556596-dbb5fe1b-65dc-41f3-bf05-1fbfea4fcebf.png" width="270" height="495"/>
  **회원가입 페이지**
  * **1) 회원가입을 제공한다**
  * **2,3) 회원가입 정보 입력 시 국가정보를 받아 해당 국가의 사람이 많이 본 컨텐츠를 데이터를 바탕으로 제공한다**
